@@ -1,4 +1,4 @@
-from database import engine
+from database import Base
 from sqlalchemy import Integer, Column, String, Boolean
 class Todos(Base):
     __tablename__ = "todos"
